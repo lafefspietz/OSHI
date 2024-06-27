@@ -18,4 +18,6 @@ Instructions for DIY making of small numbers of the instrument for non-commercia
 
 There should be a mechanism by which any new instances of the instrument are linked to and from the existing instances. As a network grows of people making and using an instrument, everyone should be sharing information across the whole network, building network effects to better data and also improvements in the instrument.  
 
+The constituent elements of the OSHI should all have their own folder in the Git repository(collection of files), each of which has a README.md Markdown file documenting that element.  These folders can be as fractal as they need to be to ensure that each object intended for replication can itself be made to fit all the criteria in this document. 
+
 Each document should state what unsolved problems remain in the improvement of the element being documented, along with contact information as needed to get a contributor trained to the point that they can move the work forward.
