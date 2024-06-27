@@ -1,7 +1,6 @@
 ![](OSHI-qrcode.png)
-# OSHI
+# Open Source Hardware Instrument(OSHI)
 
-Open Source Hardware Instrument
 
 Open Source Hardware Instruments are collections of free and open source physical technology which extend the shared nervous system of Humanity.  The goal of the OSHI movement is to build a network of such instruments, which taken together can extend our perception more deeply into the world directly around us.  We aim to make free instruments which can scale up to billions of users, making them available to all of Humanity. We will measure our direct environment, focusing on air, soil, rock, water, the bodies of living organisms, and the physical elements of our own technology.  And within mainstream Big Science we will democratize access to the products of our work, aiming to dramatically lower costs and complexity of operation of "advanced" scientific measurement.  
 
