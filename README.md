@@ -1,6 +1,7 @@
 ![](OSHI-qrcode.png)
 # Open Source Hardware Instrument(OSHI)
 
+ - [qrcode/](qrcode/)
  - [QCode Table](qrcode/table.html)
  - [QCode Table Generator](qrcode/)
 

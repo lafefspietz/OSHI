@@ -2,6 +2,8 @@
 
 ![](../qrcodes/qrcode-qrcode.png)
 
+![](../images/qrcode-table.png)
+
 # QR Codes
 
  - [qrcode.js](https://github.com/davidshimjs/qrcodejs)
