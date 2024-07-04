@@ -9,6 +9,8 @@
         "readme.html",
         "readmeeditor.html",
         "replicator.sh",
+        "scroll.html",
+        "table.html",
         "trashmagic.css",
         "trashmagic.js",
         "wall.html",
@@ -31,7 +33,6 @@
         "pngsave.txt",
         "rdelete.txt",
         "replicator.txt",
-        "text2php.txt",
-        "updir.txt"
+        "text2php.txt"
     ]
 }

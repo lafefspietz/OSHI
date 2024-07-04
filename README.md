@@ -1,6 +1,11 @@
 ![](OSHI-qrcode.png)
 # Open Source Hardware Instrument(OSHI)
 
+ - [QCode Table](qrcode/table.html)
+ - [QCode Table Generator](qrcode/)
+
+
+
 The purpose of science instruments is to extend the shared nervous system of humanity. The purpose of the open source hardware instrument (OSHI) is to replicate science instruments as widely as possible, to navigate their evolution and improvement, and to coordinate the flow of information from the instruments . 
 
 We break up the OSHI into as many fractal parts as needed so that each part can itself replicate. This is generally broken down by type into electrical, mechanical,  informational.  We build the documentation required not only to copy a thing but to copy it economically and at scale.  We build the social network infrastructure required to allow sponsors to pay for any number of instruments, which are then used by performers who use the instruments to gather and publish data. 
