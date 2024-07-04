@@ -4,7 +4,13 @@
 
 ![](../images/qrcode-table.png)
 
-# QR Codes
+# [OSHI QR Code Set](https://github.com/LafeLabs/OSHI/tree/main/qrcode)
+
+To replicate this set, you can use the script at the following replicator address:
+
+```
+https://raw.githubusercontent.com/LafeLabs/OSHI/main/php/replicator.txt
+```
 
  - [qrcode.js](https://github.com/davidshimjs/qrcodejs)
  - [webeditor.html](webeditor.html)
