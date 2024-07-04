@@ -1,5 +1,5 @@
 ![](OSHI-qrcode.png)
-# Open Source Hardware Instrument(OSHI)
+# [Open Source Hardware Instrument(OSHI)](https://github.com/lafelabs/OSHI)
 
  - [qrcode/](qrcode/)
  - [QCode Table](qrcode/table.html)
