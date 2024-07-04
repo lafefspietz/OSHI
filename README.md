@@ -1,6 +1,37 @@
 ![](OSHI-qrcode.png)
 # Open Source Hardware Instrument(OSHI)
 
+The purpose of science instruments is to extend the shared nervous system of humanity. The purpose of the open source hardware instrument (OSHI) is to replicate science instruments as widely as possible, to navigate their evolution and improvement, and to coordinate the flow of information from the instruments . 
+
+We break up the OSHI into as many fractal parts as needed so that each part can itself replicate. This is generally broken down by type into electrical, mechanical,  informational.  We build the documentation required not only to copy a thing but to copy it economically and at scale.  We build the social network infrastructure required to allow sponsors to pay for any number of instruments, which are then used by performers who use the instruments to gather and publish data. 
+
+Each element of an open source hardware instrument must communicate why it exists and why a user would want to replicate it.  Each element links with the other elements in a network of hyperlinks in their documentation. Each element has its own sub directory with a README.md file and a QR code which links back to a global url on the open web which hosts that Readme. Each readme has a title linking back to itself. 
+
+The OSHI code set itself is a minimal self replicating HTML document which displays the markdown in the README. it has that as an element.  The OSHI code repo follows its own plan. It is a fractal self replicating set. 
+
+Why does this exist?
+
+These go in an "action" category of elements:
+
+How to buy?
+How to sell?
+How to sponsor?
+How to get a free instrument?
+
+Electrical
+Mechanical 
+Informational
+
+Qr codes are an element 
+Html is an element 
+Markdown is an element 
+Thermal printer is an element, Mechanical
+The demo model is the thermotron, which is a thing. 
+  
+
+Thermotron is an element of OSHI, and OSHI is an element of thermotron. 
+
+
 
 Open Source Hardware Instruments are collections of free and open source physical technology which extend the shared nervous system of Humanity.  The goal of the OSHI movement is to build a network of such instruments, which taken together can extend our perception more deeply into the world directly around us.  We aim to make free instruments which can scale up to billions of users, making them available to all of Humanity. We will measure our direct environment, focusing on air, soil, rock, water, the bodies of living organisms, and the physical elements of our own technology.  And within mainstream Big Science we will democratize access to the products of our work, aiming to dramatically lower costs and complexity of operation of "advanced" scientific measurement.  
 
