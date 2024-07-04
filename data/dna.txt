@@ -2,9 +2,12 @@
     "html": [
         "README.md",
         "fork.html",
+        "geometron.js",
         "index.html",
         "readme.html",
         "readmeeditor.html",
+        "trashmagic.css",
+        "trashmagic.js",
         "webdestroyer.html",
         "webeditor.html"
     ],
