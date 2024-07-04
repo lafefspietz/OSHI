@@ -6,6 +6,10 @@
 
 # [OSHI QR Code Set](https://github.com/LafeLabs/OSHI/tree/main/qrcode)
 
+The QR Code set exists to replicate a set of elements of some [Open Source Hardware Instrument(OSHI)](../).  The [qrcode.js](https://github.com/davidshimjs/qrcodejs) [JavaScript](../javascript/) library is used to generate a QR code for each element of the OSHI, which are then all stored in the folder "qrcodes/", each with a name [element name]-qrcode.png.  A table is generated which has each QR code and the name of the element, so they can all be printed out, cut up, and attached to physical media to make a physical representation of the set. 
+
+Replicate this set on a local web server.
+
 To replicate this set, you can use the script at the following replicator address:
 
 ```

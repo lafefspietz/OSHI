@@ -4,6 +4,7 @@
  - [qrcode/](qrcode/)
  - [QCode Table](qrcode/table.html)
  - [QCode Table Generator](qrcode/)
+ - [localhost/](http://localhost/)
 
 
 
