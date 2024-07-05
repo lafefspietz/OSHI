@@ -2,7 +2,7 @@
 # [Open Source Hardware Instrument(OSHI)](https://github.com/lafelabs/OSHI)
 
  - [qrcode/](qrcode/)
- - [markdown/](markdown/)
+ - [readme/](readme/)
  - [localhost/](http://localhost/)
 
 
