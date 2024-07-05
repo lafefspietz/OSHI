@@ -2,18 +2,18 @@
 <html lang="en">
     <head>
      <meta charset="utf-8"/>
-     <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADf+wAA3/sAAAfgAACv9QAAoAUAAK/1AACv9QAAqBUAAK/1AACoFQAAr/UAAKAFAACv9QAAB+AAAN/7AADf+wAA" rel="icon" type="image/x-icon" />
+<link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA4AcAAO/3AADH9wAA7/cAAO/3AADEdwAA7/cAAOw3AADH9wAA7HcAAO/3AADEFwAA7/cAAOAHAAD//wAA" rel="icon" type="image/x-icon">
         
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/showdown/1.8.6/showdown.js"></script>
 
-            <!--Stop Google:-->
+    <!--Stop Google:-->
     <META NAME="robots" CONTENT="noindex,nofollow">
-
     </head>
 <body>
     
 <textarea id = "maintextarea"></textarea>
 <a id = "homelink" href = "readme-reader.html">README READER</a>
+<div id = "title">NAME</div>
 <div id = "dirscroll"></div>
 <script>
 
@@ -27,6 +27,7 @@ converter.setOption('tables', 'true');
 
 
 currentfile = "README.md";
+document.getElementById("title").innerHTML = currentfile;
 
 //get readme.md, convert to html and display
 
@@ -67,6 +68,8 @@ var httpc9 = new XMLHttpRequest();
                 newdiv.onclick = function(){
     
                     currentfile = this.innerHTML;
+                    document.getElementById("title").innerHTML = currentfile;
+
                     var httpc = new XMLHttpRequest();
                     httpc.onreadystatechange = function() {
                         if (this.readyState == 4 && this.status == 200) {
@@ -121,9 +124,17 @@ a{
     position:absolute;
     overflow:scroll;
     font-size:2em;
-    top:3em;
+    top:4em;
     width:40%;
     z-index:-3;
+}
+#title{
+    color:#ff2cb4;
+    position:absolute;
+    right:0px;
+    top:1.5em;
+    font-size:2em;
+    z-index:-1;
 }
 .readmelink{
     border:solid;

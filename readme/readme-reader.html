@@ -36,9 +36,9 @@ github.com/lafelabs/OSHI/README.md
 
 <a id = "homelink" href= "index.html">HOME</a>
 
-<div id= "dirscroll">
 
-</div>
+<div id = "title"></div>
+<div id= "dirscroll"></div>
 
 <script>
 
@@ -53,6 +53,8 @@ converter.setOption('tables', 'true')
     
 filename = "README.md";
 loadscroll("README.md");
+
+document.getElementById("title").innerHTML = filename;
 
 
 function loadscroll(scrollname){
@@ -91,6 +93,8 @@ var httpc9 = new XMLHttpRequest();
                 document.getElementById("dirscroll").appendChild(newdiv);
                 newdiv.onclick = function(){
                     loadscroll(this.innerHTML);
+                    document.getElementById("title").innerHTML = this.innerHTML;
+
                 }
             }
         }
@@ -129,10 +133,18 @@ a{
     position:absolute;
     overflow:scroll;
     font-size:2em;
-    top:3em;
+    top:4em;
     width:40%;
     z-index:-3;
 }
+#title{
+    position:absolute;
+    right:0px;
+    top:1.5em;
+    font-size:2em;
+    z-index:-1;
+}
+
 .readmelink{
     border:solid;
     border-radius:10px;
