@@ -5,6 +5,7 @@
  - [readme/](readme/)
  - [localhost/](http://localhost/)
 
+this is a test
 
 The purpose of science instruments is to extend the shared nervous system of humanity. The purpose of the open source hardware instrument (OSHI) is to replicate science instruments as widely as possible, to navigate their evolution and improvement, and to coordinate the flow of information from the instruments out to the world. 
 
