@@ -32,7 +32,7 @@ github.com/lafelabs/OSHI/README.md
 </head>
 <body>    
 <div id = "scrollscroll"></div>
-<a id = "editlink" href= "readme-editor.html">EDIT</a>
+<a id = "editlink" href= "readme-editor.html">README EDITOR</a>
 
 <a id = "homelink" href= "index.html">HOME</a>
 
@@ -83,13 +83,15 @@ var httpc9 = new XMLHttpRequest();
     httpc9.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         readmefiles = JSON.parse(this.responseText);
-        for(var index = readmefiles.length - 1;index >= 0;index--) {
-            var newdiv = document.createElement("DIV");
-            newdiv.innerHTML = "../" +  readmefiles[index] + "/README.md";
-            newdiv.className = "readmelink";
-            document.getElementById("dirscroll").appendChild(newdiv);
-            newdiv.onclick = function(){
-                loadscroll(this.innerHTML);
+        for(var index = 0;index < readmefiles.length;index++) {
+            if(readmefiles[index] != "php" && readmefiles[index] != "data"){
+                var newdiv = document.createElement("DIV");
+                newdiv.innerHTML = "../" +  readmefiles[index] + "/README.md";
+                newdiv.className = "readmelink";
+                document.getElementById("dirscroll").appendChild(newdiv);
+                newdiv.onclick = function(){
+                    loadscroll(this.innerHTML);
+                }
             }
         }
     }
@@ -161,13 +163,13 @@ h1,h2,h3,h4{
 
 #editlink{
     position:absolute;
-    right:5em;
+    right:0em;
     top:0px;
     font-size:2em;
 }
 #homelink{
     position:absolute;
-    right:0em;
+    right:10em;
     top:0px;
     font-size:2em;
 }

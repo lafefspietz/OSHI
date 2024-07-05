@@ -13,7 +13,7 @@
 <body>
     
 <textarea id = "maintextarea"></textarea>
-<a id = "homelink" href = "readme-reader.html">readme</a>
+<a id = "homelink" href = "readme-reader.html">README READER</a>
 <div id = "dirscroll"></div>
 <script>
 
@@ -58,25 +58,29 @@ var httpc9 = new XMLHttpRequest();
     httpc9.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         readmefiles = JSON.parse(this.responseText);
-        for(var index = readmefiles.length - 1;index >= 0;index--) {
-            var newdiv = document.createElement("DIV");
-            newdiv.innerHTML = "../" +  readmefiles[index] + "/README.md";
-            newdiv.className = "readmelink";
-            document.getElementById("dirscroll").appendChild(newdiv);
-            newdiv.onclick = function(){
-
-                currentfile = this.innerHTML;
-                var httpc = new XMLHttpRequest();
-                httpc.onreadystatechange = function() {
-                    if (this.readyState == 4 && this.status == 200) {
-                        scroll = this.responseText;
-                        document.getElementById("maintextarea").value = scroll;  
-                    }
-                };
-                httpc.open("GET", "fileloader.php?filename=" + currentfile, true);
-                httpc.send();
-                
+        for(var index = 0;index < readmefiles.length;index++) {
+            if(readmefiles[index] != "php" && readmefiles[index] != "data"){
+                var newdiv = document.createElement("DIV");
+                newdiv.innerHTML = "../" +  readmefiles[index] + "/README.md";
+                newdiv.className = "readmelink";
+                document.getElementById("dirscroll").appendChild(newdiv);
+                newdiv.onclick = function(){
+    
+                    currentfile = this.innerHTML;
+                    var httpc = new XMLHttpRequest();
+                    httpc.onreadystatechange = function() {
+                        if (this.readyState == 4 && this.status == 200) {
+                            scroll = this.responseText;
+                            document.getElementById("maintextarea").value = scroll;  
+                        }
+                    };
+                    httpc.open("GET", "fileloader.php?filename=" + currentfile, true);
+                    httpc.send();
+                    
+                }
+        
             }
+
         }
     }
 };
@@ -89,6 +93,8 @@ httpc9.send();
 body{
     overflow:hidden;
     background-color:black;
+        font-family:Arial;
+
 }
 a{
     color:blue;
