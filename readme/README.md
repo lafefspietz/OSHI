@@ -6,6 +6,8 @@
 
  - [readme-reader.html](readme-reader.html)
  - [readme-editor.html](readme-editor.html)
+ - [replicator script url](https://raw.githubusercontent.com/LafeLabs/OSHI/main/readme/php/replicator.txt)
+
 
 The README files are files written in the [Markdown language](https://en.wikipedia.org/wiki/Markdown).  This is a language which is very widely used in the documentation of open source software and hardware both. It is the default language of [Github](https://github.com) repositories, and renders in a web browser when you point them to a repository.
 
